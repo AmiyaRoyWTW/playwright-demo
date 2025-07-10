@@ -1,2 +1,2 @@
 # playwright-demo
-This is a demo project
+A simple Playwright demo project

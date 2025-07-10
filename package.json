@@ -1,0 +1,19 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "A simple Playwright demo project",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test",
+    "interactive-ui": "npx playwright test --ui",
+    "test:chromium": "npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "AmiyaWTW",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^24.0.12"
+  }
+}
